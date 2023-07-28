@@ -1,0 +1,54 @@
+@media screen and (max-width: 800px) {
+
+    body {
+        min-width: fit-content;
+        height: unset;
+    }
+
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .simpal-note {
+        margin: -2px 0;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .leftSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px !important;
+        text-align: center;
+    }
+
+    .rightSection {
+        width: 321px !important;
+
+    }
+
+    .image-logo {
+        padding: 40px 0;
+        padding-right: 33%
+    }
+
+    .image-logo img {
+        padding: 0 10px;
+
+    }
+
+    button {
+        margin-top: 5%;
+    }
+
+    .bottom {
+        padding: 10px 0;
+        margin: -2px;
+    }
+
+}

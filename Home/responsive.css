@@ -1,0 +1,92 @@
+@media screen and (max-width: 800px) {
+
+    body {
+        min-width: fit-content;
+        height: unset;
+    }
+
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .simpal-note {
+        margin: -2px 0;
+    
+    }
+
+    .firstSection {
+        flex-direction: column-reverse;
+    }
+
+    .leftSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px !important;
+        text-align: center;
+    }
+
+    .rightSection {
+        width: 321px !important;
+    }
+
+    button {
+        margin-top: 5%;
+    }
+
+    div.vertical-line {
+        height: 491px;
+        top: 491px;
+        padding: 15px 0;
+        left: -145px;
+    }
+
+    .vertical-title,
+    .vertical-describe {
+        left: 30px;
+        width: 261px;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80% !important;
+    }
+
+    .secondSection .box {
+        margin: 30px;
+    }
+
+    .secondSection {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        height: 120vh;
+    }
+
+    .top-image {
+        top: 35px;
+    }
+  /* footer*/
+    footer {
+        height: 12vh;
+        padding: 0px 20px;
+    }
+
+    .footer-left {
+        width: 20px;
+        margin-right: 50px;
+
+    }
+
+    .footer-right ul li {
+        padding: 0 1px;
+    }
+
+    .bottom {
+        margin-top: -5px;
+    }
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul-Devloper portfolio></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./about-responsive.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Rahul's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/Home/index.html">Home</a></li>
+                    <li><a href="/About/About.html">About</a></li>
+                    <li><a href="/Projects/Project.html">Projects</a></li>
+                    <li><a href="/Contact/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="simpal-note">The Website is under Constraction</div>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="container">
+                <div class="leftSection">
+                    <div>Hi There <br>I M' <span class="text-Purpal">Rahul Parmar</span></div>
+                    <div> i am a passionate</div>
+                    <span id="element"></span>
+                    <div>
+                        <button id="download">Download Resume</button>
+                        <button id="github">Visit Github</button>
+                        <script>
+                            document.getElementById("download").addEventListener("click", function () {
+                                window.location.href = "https://drive.google.com/drive/u/0/folders/1fWOrbFw4zrH5a2g4s2lhFdCStSGoYpGu";
+                            });
+
+                            document.getElementById("github").addEventListener("click", function () {
+                                window.location.href = "https://github.com/Rahul-parmar1010";
+                            });
+                        </script>
+                    </div>
+                </div>
+
+                <div class="rightSection">
+                    <img src="/About/About-image/Profile.jpg" alt="profile img">
+                </div>
+            </div>
+            <div class="image-logo">
+                <img id="Instagram" src="./About-image/instagram.svg" alt="logo">
+                <img id="facebook" src="./About-image/facebook.svg" alt="logo">
+                <img id="gitHub" src="./About-image/github.svg" alt="logo">
+                <img id="linkedin" src="./About-image/linkedin.svg" alt="logo">
+            </div>
+        </section>
+
+
+
+
+        <footer>
+            <div class="bottom">
+                Copyright&#9400;www.rahulsportfolio.com | All rights reserved
+            </div>
+        </footer>
+
+        <script>
+
+            document.getElementById("linkedin").addEventListener("click", function () {
+                window.location.href = "https://www.linkedin.com/in/rahul-parmar-981a32252/";
+            });
+
+            document.getElementById("facebook").addEventListener("click", function () {
+                window.location.href = "https://www.facebook.com/profile.php?id=100005753730452";
+            });
+
+            document.getElementById("gitHub").addEventListener("click", function () {
+                window.location.href = "https://github.com/Rahul-parmar1010";
+            });
+
+            document.getElementById("Instagram").addEventListener("click", function () {
+                window.location.href = "https://www.instagram.com/rahulparmar8887/";
+            });
+
+        </script>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Web Developer'],
+                typeSpeed: 50,
+            });
+        </script>
+</body>
+
+</html>

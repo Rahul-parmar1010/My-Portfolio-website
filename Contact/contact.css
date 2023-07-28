@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    color: white;
+    font-family: 'poppins', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181858;
+    height: 60px;
+    padding: 0 8%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+
+    margin: 0 35px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+
+    color: rgb(128, 156, 233);
+    font-size: 1.03rem;
+}
+
+.simpal-note {
+    text-align: center;
+    background-color: rgb(8 17 41);
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+
+main {
+    background-color: rgb(8 17 41);
+}
+
+button {
+    position: absolute;
+    left: 110px;
+    top: 128px;
+    padding: 3px;
+}
+
+button:hover {
+    font-size: 0.9rem;
+}
+
+.right-section {
+    color: white;
+    width: 30%;
+    margin-left: -100px;
+
+}
+
+.left-section img {
+    width: 700px;
+    padding-left: 100px;
+}
+
+.left-section {
+    width: 70%;
+}
+
+.mianSection {
+    display: flex;
+    padding: 40px 0;
+
+
+
+}
+
+.right-section div {
+    margin-top: 35px;
+    color: white
+}
+
+.right-section p {
+    font-size: 0.9rem;
+}
+
+.right-section img {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    font-size: 0.8rem;
+    background-color: rgb(8 17 41);
+    padding: 10px 0;
+}

@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+
+    font-family: 'poppins', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #181858;
+    height: 60px;
+    padding: 0 8%;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+
+    margin: 0 35px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+
+    color: rgb(128, 156, 233);
+    font-size: 1.03rem;
+}
+.simpal-note{
+    text-align: center;
+    background-color:  rgb(8 17 41);
+     color: gray;
+}
+
+.left {
+    font-size: 2.5rem;
+}
+.firstSection {
+    display: flex;
+    background-color: rgb(8 17 41);
+    justify-content: space-between;
+    padding: 8% 8%;
+    align-items: center;
+    color: white;
+}
+
+.leftSection {
+    width: 50%;
+    font-size:2.4rem;
+    
+}
+
+.button{
+    padding: 8px;
+    background-color: #3535b8;
+    color: white;
+    border-radius: 3px;
+    border: solid white 1px;
+    margin-top: 80px;
+
+}
+
+.rightSection {
+    width: 30%;
+}
+
+.rightSection img {
+    width: 100%;
+    height:350px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.text-Purpal {
+    color: #3b3bca;
+}
+
+.text-gray {
+    color: rgb(201, 196, 196);
+    font-size: 0.8rem;
+    padding-left: 60px;
+}
+
+#element {
+    color: #3b3bca;
+    
+}
+
+
+.first h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.first-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.first-left {
+    width: 40%;
+}
+
+.Project img {
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+button{
+    
+    border-radius: 50px;
+    padding: 3px 10px;
+    background-color: #181858;
+
+}
+button a{
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+button a:hover {
+    font-size: 0.9rem;
+}
+
+footer {
+    height: 25vh;
+    background-color: #181858;
+    margin-top: 5%;
+    color: white;
+}
+
+
+.dom {
+    text-align: center;
+    margin-top: 70px;
+}
+
+footer {
+    height: 25vh;
+    background-color: #181858;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13%;
+}
+footer ul li {
+    font-size: 0.8rem;
+    padding: 4px 0;
+    list-style: none;
+}
+
+.bottom {
+    text-align: center;
+    color: gray;
+    font-size: 0.8rem;
+    padding: 10px 0;
+    background-color: #181858;
+}

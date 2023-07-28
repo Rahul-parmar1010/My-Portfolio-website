@@ -1,0 +1,44 @@
+@media screen and (max-width: 800px) {
+
+    body {
+        min-width: fit-content;
+        height: unset;
+    }
+
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .simpal-note {
+        margin: -3px 0;
+
+    }
+
+    .left-section img {
+        width: 510px;
+        padding-left: 140px;
+        margin: 50px 0;
+    }
+
+    .mianSection {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0px 0px;
+    }
+
+    button {
+
+        left: 145px;
+        top: 540px;
+        padding: 1px;
+    }
+
+    .right-section {
+        margin: 0 300px;
+    }
+
+    .footer-rights {
+        margin-top: -5px;
+    }
+}
